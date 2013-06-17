@@ -1,7 +1,10 @@
+__author__ = 'Antonio Locandro'
+
 # The following python script calculates the TAS for a given IAS, height and Temperature Variation (normally +15 degrees celsius
 
-print "IAS to TAS Calculator "
 
+
+print "IAS to TAS Calculator "
 
 IAS = raw_input ("Input IAS in Knots? ")
 VAR = raw_input("VAR? normally 15 degrees Celsius " )
