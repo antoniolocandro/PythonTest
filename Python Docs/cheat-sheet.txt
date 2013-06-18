@@ -1,0 +1,31 @@
+
+
+built-in functions
+
+
+type () returns the type of data, e.g. string, tuple, int, float
+
+STRINGS
+.upper() makes strings all upper case
+.lower() makes strings all lower case
+str() converts to string
+len() returns the lenght of a string
+
+NUMBERS
+max() returns the largest number, applies for integers and floats; not recommended for strings - it takes lists
+min() returns the smallest number, applies for integers and floats; not recommended for strings - it takes lists
+abs() returns the absolute value for a number - it takes a single number
+>= for greater or equal to
+=< for less than or equal to
+
+LISTS
+append() add to a list
+[:] used to slice a list
+index("") to search a list
+insert(,"") to inseart at a position a string
+sort () to sort lists in increasing/alphabetical order
+
+DICTIONARY
+dict_name[new_key] = new_value
+del dict_name[key_name]
+my_list.remove(value)
