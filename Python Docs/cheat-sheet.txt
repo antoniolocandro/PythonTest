@@ -2,6 +2,12 @@
 
 built-in functions
 
+RESERVED WORDS
+list
+
+
+
+
 
 type () returns the type of data, e.g. string, tuple, int, float
 
@@ -19,6 +25,8 @@ abs() returns the absolute value for a number - it takes a single number
 =< for less than or equal to
 
 LISTS
+They use square brackets []
+
 append() add to a list
 [:] used to slice a list
 index("") to search a list
@@ -26,6 +34,9 @@ insert(,"") to inseart at a position a string
 sort () to sort lists in increasing/alphabetical order
 
 DICTIONARY
+They use {}
+
+
 dict_name[new_key] = new_value
-del dict_name[key_name]
-my_list.remove(value)
+del dict_name[key_name]  del deletes the key and value based on the key
+my_list.remove(value)    removes a key and value based on value
