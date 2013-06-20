@@ -1,8 +1,14 @@
 __author__ = 'Antonio Locandro'
 
+<<<<<<< HEAD
 # Visual Circling Calculations
 
 IASvisualapproach = {'CAT A':100,'CAT B':135,'CAT C':180,'CAT D':205, 'CAT E':240}
+=======
+from math import *
+from numpy import *
+print sqrt(25)
+>>>>>>> a few changes in aeronautical scripts
 
 def IAS_to_TAS_conversion (*args):
     #VARint = ISA+15 (it is assumed ISA+15 will be used, code can be changed to accept user input)
