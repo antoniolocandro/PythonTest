@@ -1,6 +1,6 @@
 __author__ = 'Antonio Locandro'
 
-print "Tolerance Area Calculations"
+print "Tolerance Area Calculations for NDB"
 
 from math import tan
 from math import sin

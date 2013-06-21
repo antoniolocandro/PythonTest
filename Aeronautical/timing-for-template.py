@@ -3,13 +3,6 @@ __author__ = 'Antonio Locandro'
 # PANS OPS Timing done for CAT H aircraft only
 # The code is not to be used for operational use, just to do preliminary work as I am learning to code
 
-
-def timeCompensation (distNavToRwyCline):
-    return (distNavToRwyCline/TAS)*60
-
-distNavToRwyCline = float(raw_input("distance from Navaid to runway intersection in NM? "))
-TAS = float(raw_input("TAS in kt? "))
-
 def intersectionTime ():
     return (height-airportElevation)/(inboundMaxRate+outboundMaxRate)
 
@@ -21,6 +14,6 @@ airportElevation = float(raw_input("Aerodrome Altitude in meters = "))+15 # The 
 outboundMaxRate = 365.0 # m/min
 inboundMaxRate = 230.0 # m/min
 
-print "Exact Time is "+str (intersectionTime ()+timeCompensation (distNavToRwyCline))+" min"+'\n'+"Turn base altitude should be " +'\n'+str(intersectionAltitude())+" meters /" +'\n'+ str(intersectionAltitude()*3.2808)+" feet"
+print "Exact Time is "+str (intersectionTime ())+" min"+'\n'+"Turn base altitude should be " +'\n'+str(intersectionAltitude())+" meters /" +'\n'+ str(intersectionAltitude()*3.2808)+" feet"
 
 raw_input('Press Enter to exit')
