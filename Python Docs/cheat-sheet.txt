@@ -27,11 +27,23 @@ abs() returns the absolute value for a number - it takes a single number
 LISTS
 They use square brackets []
 
-append() add to a list
+pull information list [#]
+replace a specific item value e.g. n[2]=n[2]*3 ; n[2]="test"
+.append() add to a list e.g. n.append("test") #append will add the item to the end of the list
 [:] used to slice a list
 index("") to search a list
 insert(,"") to inseart at a position a string
 sort () to sort lists in increasing/alphabetical order
+range()
+
+`remove items`
+n.pop(index) #this remove eht item at index and returns it
+n.remove(index) #this removes the actual item and returns it
+del(n[index]) #doesn't return a thing
+
+`math`
+sum(args)
+
 
 DICTIONARY
 They use {}
